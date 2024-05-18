@@ -25,5 +25,13 @@ resource "aws_vpc" "kina" {
 
 }
 
+resource "aws_s3_bucket" "smallie" {
+  bucket = "smallie"
+  
+}
 
+resource "aws_dynamodb_table" "smallie12" {
+  name = "smallie1"
+  
+}
 
